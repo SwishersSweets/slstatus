@@ -69,3 +69,6 @@ Upcoming
 --------
 A first feature-complete release with official packages for common distributions
 will come soon.
+
+replace eth0 with your interface 
+(you can find your interface with nmcli or ip link show )
