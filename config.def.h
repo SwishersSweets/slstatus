@@ -62,7 +62,9 @@ static const char unknown_str[] = "n/a";
  *                                                     NULL on OpenBSD/FreeBSD
  * wifi_essid          WiFi ESSID                      interface name (wlan0)
  * wifi_perc           WiFi signal in percent          interface name (wlan0)
- */
+* 
+* ls -l /sys/class/net/ will tell you the devices 
+*/ 
 static const struct arg args[] = {
 	/* function format          argument */
 	{netspeed_tx,	 "UP %sB/s ", "eth0"		},
